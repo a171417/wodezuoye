@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body{
+        font-size: 12px; font-family: "宋体";
+    }
+    body,form,input.p{
+        padding: 0;margin: 0;border: 0;
+    }
+    form
+    {
+    width: 320px;
+    height: 150px;
+    padding-top:20px;
+    margin: 50px auto;
+    background: #f5f8fd;
+    border-radius: 20px;
+    border: 3px solid #4faccb;
+    }
+    p{
+        margin-top: 15px;
+        text-align: center;
+    }
+    .btn1,.btn2
+    {
+    border-radius: 5px;
+    margin-left:40px;
+    }
+    .pwd,.num{
+        width: 130px;
+        height: 15px;
+    }
+ 
+    </style>
+</head>
+<body>
+    <form action="#" method="POST" class="box">
+        <p>
+             账号： <input type="number" name="admin" value="admin" class="num" > 
+        </p>
+        <p>
+            密码：  <input type="password" name="pwd" class="pwd">
+        </p>
+        <p>
+            <input type="button" class="btn1" value="登陆">
+            <input type="button" class="btn2" value="注册">
+        </p>
+    </form>
+</body>
