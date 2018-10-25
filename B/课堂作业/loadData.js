@@ -14,11 +14,11 @@ for(i in sliderData.imageList){
 }
 var ulObject=document.querySelector("#mask>ul");
 console.log(ulObject);
-ulObject.innerHTML='<li id="'+first+'"class="'+firstanimation+'">'+
-                   '<a href="#"></a>'+
-                   '<img src="images/img_1.jpg" alt="Cougar">'+
-                   '<a/>'+
-                   '<div class="ooltip">'+
+ulObject.innerHTML='<li id="'+sliderData.imageList[0].itemId+'" class="'+sliderData.imageList[0].itemClassName+'">'+
+                   '<a href="'+sliderData.imageList[0].aHref+'">'+
+                   '<img src="'+sliderData.imageList[0].imgSrc+'" alt="'+sliderData.imageList[0].imgAlt+'">'+
+                   '</a>'+
+                   '<div class="tooltip">'+
                    '<h1>'+sliderData.imageList[0].h1Content+'</h1>'+
                    '</div></li>';
 // console.log(sliderData.imageList[0].imgSrc);
